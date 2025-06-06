@@ -1,4 +1,6 @@
 # 35.-Search-Insert-Position
+
+```python
 low = 0
 high = len(nums)-1
 while low<=high :
@@ -11,4 +13,5 @@ while low<=high :
         high = mid - 1
 else :      
     return low
+```
 
